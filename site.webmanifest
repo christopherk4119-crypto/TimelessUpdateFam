@@ -1,0 +1,23 @@
+{
+  "name": "Timeless Interiors Ltd. — Calgary Home Renovation",
+  "short_name": "Timeless Interiors",
+  "description": "Calgary home renovation contractor for bathroom renovation, basement finishing, and general contracting.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F8F5F0",
+  "theme_color": "#3B5249",
+  "lang": "en-CA",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
