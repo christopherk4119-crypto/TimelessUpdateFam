@@ -62,6 +62,42 @@ One requirement: the host must serve `/some-page/index.html` when a visitor
 requests `/some-page/` (clean folder-style URLs). Every static host listed
 above does this by default — nothing extra to configure.
 
+## Round 2 additions (Search Console + further SEO)
+
+- **Google Search Console verification** — `googleccf56000b6b3a580.html` was
+  added at the site root with the exact content Google's HTML-file
+  verification method requires. Once this is deployed live, verification in
+  Search Console should complete automatically (click "Verify" on the
+  property). **After it's live, submit `sitemap.xml`** in Search Console →
+  Sitemaps, and use URL Inspection → Request Indexing on the homepage and a
+  couple of the new service pages to speed up first indexing.
+- **`WebSite` schema** — added to every page (in addition to the existing
+  `HomeAndConstructionBusiness`/`Service`/`FAQPage`/`BlogPosting`/
+  `BreadcrumbList` schema), so Google has a clear entity for "the site
+  itself" distinct from the business.
+- **`ContactPoint` schema** — added inside the homepage's business schema
+  (phone, email, service area) — this is what can power a "call" action
+  button directly in search results/Knowledge Panel.
+- **hreflang tags** — self-referencing `en-ca` + `x-default` added to every
+  page. Minor, but correct practice and rules out any language/region
+  ambiguity for Google.
+- **Custom `404.html`** — replaces whatever generic "not found" page the
+  host would otherwise show. Links back to home, two popular service pages,
+  FAQ, and the blog, so lost visitors (and lost link equity from any broken
+  backlinks) aren't a dead end. Marked `noindex, follow` so it never
+  competes with real pages in search results.
+- **Deeper internal linking** — each service page now links to its matching
+  blog post; each blog post links to the other two posts; each location
+  page links to the FAQ and blog. (Previously, blog↔service/location linking
+  only ran one direction.)
+- **`_headers` file** — sets long `Cache-Control` lifetimes (1 year) on
+  images, CSS, and icons, and no-cache on HTML so page edits always show up
+  immediately. Netlify and Cloudflare Pages read this file automatically. If
+  hosting elsewhere (Vercel, plain Apache/Nginx, FTP host), the same
+  cache rules need to be set in that host's own config — ask your host or
+  developer how to add cache headers there; the values to use are in that
+  file.
+
 ## Please verify before/at launch
 
 - **Domain** — all canonical/Open Graph URLs assume `https://www.timelessinteriors.ca`. If that ever changes, it needs a find-and-replace across every HTML file plus `sitemap.xml`.
