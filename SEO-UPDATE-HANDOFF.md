@@ -100,7 +100,7 @@ above does this by default — nothing extra to configure.
 
 ## Please verify before/at launch
 
-- **Domain** — all canonical/Open Graph URLs assume `https://www.timelessinteriors.ca`. If that ever changes, it needs a find-and-replace across every HTML file plus `sitemap.xml`.
+- **Domain** — all canonical/Open Graph URLs assume `https://timelessinteriorsltd.com`. If that ever changes, it needs a find-and-replace across every HTML file plus `sitemap.xml`.
 - **Social links** — `sameAs` in the JSON-LD points to `instagram.com/timelessinteriors` and `facebook.com/timelessinteriors`, carried over unchanged from the original file. Please confirm these are the real, live profiles.
 - **Lead form** — the GoHighLevel embed (form ID `RhsEyIreH89gn81AYr6M`) is unchanged from the original — confirm it's still the correct form/account.
 - **Reviews** — the `aggregateRating` (5.0 from 3 reviews) mirrors the 3 testimonials visibly shown on the homepage. If more reviews get added to the page, update the count/rating in the JSON-LD to match — Google penalizes structured data that doesn't match what's visible on the page.
