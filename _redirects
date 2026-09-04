@@ -1,0 +1,6 @@
+# Netlify / Cloudflare Pages redirects
+# Service pages moved under /renovation/; general contracting page retired.
+
+/bathroom-renovation-calgary/*    /renovation/bathroom-renovation-calgary/  301!
+/basement-finishing-calgary/*     /renovation/basement-finishing-calgary/   301!
+/general-contracting-calgary/*    /renovation/                              301!
