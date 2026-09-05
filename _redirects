@@ -4,3 +4,10 @@
 /bathroom-renovation-calgary/*    /renovation/bathroom-renovation-calgary/  301!
 /basement-finishing-calgary/*     /renovation/basement-finishing-calgary/   301!
 /general-contracting-calgary/*    /renovation/                              301!
+
+# The 4 individual city doorway pages were consolidated into one honest
+# service-area page rather than faking unique per-city content.
+/airdrie/*      /service-area/  301!
+/cochrane/*     /service-area/  301!
+/chestermere/*  /service-area/  301!
+/okotoks/*      /service-area/  301!
