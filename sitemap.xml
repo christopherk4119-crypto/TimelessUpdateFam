@@ -43,6 +43,40 @@
   </url>
 
   <url>
+    <loc>https://timelessinteriorsltd.com/renovation/secondary-suite-calgary/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://timelessinteriorsltd.com/painting/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://timelessinteriorsltd.com/images/calgary-deck-staining-after-timeless-interiors.jpg</image:loc>
+      <image:title>Calgary deck staining by Timeless Interiors Ltd</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://timelessinteriorsltd.com/images/calgary-deck-painting-after-timeless-interiors.jpg</image:loc>
+      <image:title>Calgary deck painting by Timeless Interiors Ltd</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://timelessinteriorsltd.com/images/calgary-brick-painting-garage-after-timeless-interiors.jpg</image:loc>
+      <image:title>Calgary exterior brick painting by Timeless Interiors Ltd</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://timelessinteriorsltd.com/images/calgary-interior-painting-stairwell-timeless-interiors.jpg</image:loc>
+      <image:title>Calgary interior stairwell painting by Timeless Interiors Ltd</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://timelessinteriorsltd.com/images/calgary-accent-wall-painting-timeless-interiors.jpg</image:loc>
+      <image:title>Calgary accent wall painting by Timeless Interiors Ltd</image:title>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://timelessinteriorsltd.com/faq/</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>

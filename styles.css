@@ -203,7 +203,7 @@ section { padding: 96px 8vw; }
 .services { background: var(--cream); }
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 2px;
   background: var(--border);
   border: 1px solid var(--border);
@@ -395,6 +395,7 @@ footer { background: var(--charcoal); padding: 64px 8vw 32px; }
 /* ─── RESPONSIVE ─── */
 @media (max-width: 1080px) {
   .footer-grid { grid-template-columns: 1fr 1fr 1fr; }
+  .services-grid { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; }
