@@ -325,6 +325,13 @@ section { padding: 96px 8vw; }
 .includes-list li { list-style: none; display: flex; gap: 10px; font-size: 15px; color: var(--charcoal); align-items: flex-start; }
 .includes-list li::before { content: '✓'; color: var(--accent); font-weight: 700; flex-shrink: 0; }
 
+/* ─── BEFORE / AFTER ─── */
+.before-after-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 40px; }
+.before-after-pair figure { margin: 0; }
+.before-after-pair img { width: 100%; border-radius: 8px; display: block; }
+.before-after-pair figcaption { font-size: 12px; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; color: var(--warm-mid); margin-top: 10px; text-align: center; }
+.before-after-title { font-size: 15px; font-weight: 500; color: var(--charcoal); margin-bottom: 14px; }
+
 /* ─── LOCATION PAGES ─── */
 .location-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
 .location-card {
@@ -396,6 +403,7 @@ footer { background: var(--charcoal); padding: 64px 8vw 32px; }
   .why-grid { grid-template-columns: 1fr; }
   .why-visual { min-height: 220px; }
   .reviews-grid { grid-template-columns: 1fr; }
+  .before-after-pair { grid-template-columns: 1fr; }
   .blog-grid { grid-template-columns: 1fr; }
   .location-grid { grid-template-columns: 1fr; }
   .process-steps { grid-template-columns: 1fr 1fr; gap: 32px; }
