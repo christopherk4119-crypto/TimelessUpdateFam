@@ -8,12 +8,20 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://timelessinteriorsltd.com/images/calgary-kitchen-renovation-timeless-interiors.jpg</image:loc>
-      <image:title>Calgary kitchen renovation by Timeless Interiors Ltd</image:title>
+      <image:loc>https://timelessinteriorsltd.com/images/calgary-bathroom-renovation-green-tile-quartz-vanity-timeless-interiors.jpg</image:loc>
+      <image:title>Calgary bathroom renovation with sage green tile and quartz vanity by Timeless Interiors Ltd</image:title>
     </image:image>
     <image:image>
       <image:loc>https://timelessinteriorsltd.com/images/calgary-bathroom-renovation-soaker-tub-timeless-interiors.jpg</image:loc>
       <image:title>Calgary bathroom renovation soaker tub by Timeless Interiors Ltd</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://timelessinteriorsltd.com/images/calgary-basement-suite-open-living-area-timeless-interiors.jpg</image:loc>
+      <image:title>Calgary basement suite open living area by Timeless Interiors Ltd</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://timelessinteriorsltd.com/images/calgary-basement-suite-kitchen-quartz-counters-timeless-interiors.jpg</image:loc>
+      <image:title>Calgary basement secondary suite kitchen by Timeless Interiors Ltd</image:title>
     </image:image>
   </url>
 
@@ -37,9 +45,13 @@
 
   <url>
     <loc>https://timelessinteriorsltd.com/renovation/basement-finishing-calgary/</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://timelessinteriorsltd.com/images/calgary-basement-suite-open-living-area-timeless-interiors.jpg</image:loc>
+      <image:title>Calgary basement suite open living area by Timeless Interiors Ltd</image:title>
+    </image:image>
   </url>
 
   <url>
@@ -47,6 +59,22 @@
     <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://timelessinteriorsltd.com/images/calgary-basement-suite-kitchen-quartz-counters-timeless-interiors.jpg</image:loc>
+      <image:title>Calgary basement secondary suite kitchen by Timeless Interiors Ltd</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://timelessinteriorsltd.com/images/calgary-basement-suite-hallway-separate-thermostat-timeless-interiors.jpg</image:loc>
+      <image:title>Calgary basement suite hallway with separate thermostat by Timeless Interiors Ltd</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://timelessinteriorsltd.com/images/calgary-basement-suite-bedroom-egress-window-timeless-interiors.jpg</image:loc>
+      <image:title>Calgary basement suite bedroom with egress window by Timeless Interiors Ltd</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://timelessinteriorsltd.com/images/calgary-basement-development-bedroom-vinyl-plank-timeless-interiors.jpg</image:loc>
+      <image:title>Calgary basement suite second bedroom by Timeless Interiors Ltd</image:title>
+    </image:image>
   </url>
 
   <url>
@@ -74,6 +102,20 @@
       <image:loc>https://timelessinteriorsltd.com/images/calgary-accent-wall-painting-timeless-interiors.jpg</image:loc>
       <image:title>Calgary accent wall painting by Timeless Interiors Ltd</image:title>
     </image:image>
+  </url>
+
+  <url>
+    <loc>https://timelessinteriorsltd.com/about/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://timelessinteriorsltd.com/contact/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <url>
